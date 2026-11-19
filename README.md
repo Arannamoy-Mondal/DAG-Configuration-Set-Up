@@ -39,7 +39,7 @@ WantedBy=multi-user.target
 #nvidia-smi -pm 1
 nvidia-smi -pl 120
 while true; do
-    timeout 600
+    timeout 600 command
     sleep 120
 done
 ```
